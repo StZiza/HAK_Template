@@ -12,11 +12,10 @@
 <link href='//fonts.googleapis.com/css?family=Nunito:300,700&amp;subset=latin&amp;v=' id='options-google-fonts' media='all' rel='stylesheet' type='text/css'/>
 <b:skin><![CDATA[/*
 -----------------------------------------------
-Blogger Template Style
-Name:        Pratico Responsive Blogger Template
-Designer:    ThemeXpose
-Url :		 http://www.themexpose.com/
-License:     Full version
+Blogger Template
+Name:        HAK Blogger Template
+Designer:    H. Aziz Kayıhan
+Url :		 http://www.kayihan.net
 ----------------------------------------------- */
 body#layout .nav-collapse,.no-image,.pagenavi .pages,#navbar,.date-header,.feed-links,.post-location,.post-share-buttons,.post-icons{display: none !important;}
 .section,.widget,.widget-content,.widget ul,.widget li,body,h1,h2,h3,h4,h5,ul,li,a,p,span,img,dd{margin:0;padding:0;list-style:none;text-decoration:none;border:none;outline:none}
