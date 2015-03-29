@@ -8,7 +8,7 @@
 <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'/>
 <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'/>
 <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js' type='text/javascript'/>
-<link href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' rel='stylesheet' type='text/css'/>
+<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'/>
 <link href='//fonts.googleapis.com/css?family=Nunito:300,700&amp;subset=latin&amp;v=' id='options-google-fonts' media='all' rel='stylesheet' type='text/css'/>
 <b:skin><![CDATA[/*
 -----------------------------------------------
@@ -2501,31 +2501,31 @@ $(document).ready(function(){
 
 				<div class='social-icons'>
 
-						                    <a href='#'><i class='fa fa-facebook-square fa-lg'/></a>
-																<a href='#'><i class='fa fa-twitter-square fa-lg'/></a>
-																<a href='#'><i class='fa fa-google-plus-square fa-lg'/></a>
-                                <span class="fa-stack fa-lg">
+						                    <a href='#'><i class='fa fa-facebook-square fa-2x'/></a>
+																<a href='#'><i class='fa fa-twitter-square fa-2x'/></a>
+																<a href='#'><i class='fa fa-google-plus-square fa-2x'/></a>
+                                <a href='#'><span class="fa-stack fa-lg">
                                   <i class="fa fa-square fa-stack-2x"></i>
-                                  <i class="fa fa-foursquare fa-stack-1x fa-inverse"></i></span>
-																<a href='#'><i class='fa fa-instagram'/></a>
-                                <span class="fa-stack fa-lg">
+                                  <i class="fa fa-foursquare fa-stack-1x fa-inverse"></i></span></a>
+																<a href='#'><i class='fa fa-instagram fa-2x'/></a>
+                                <a href='#'><span class="fa-stack fa-lg">
                                   <i class="fa fa-square fa-stack-2x"></i>
-                                  <i class="fa fa-deviantart fa-stack-1x fa-inverse"></i></span>
-                                <a href='#'><i class='fa fa-flickr'/></a>
-                                <a href='#'><i class='fa fa-youtube-square'/></a>
-                                <span class="fa-stack fa-lg">
+                                  <i class="fa fa-deviantart fa-stack-1x fa-inverse"></i></span></a>
+                                <a href='#'><i class='fa fa-flickr fa-2x'/></a>
+                                <a href='#'><i class='fa fa-youtube-square fa-2x'/></a>
+                                <a href='#'><span class="fa-stack fa-lg">
                                   <i class="fa fa-square fa-stack-2x"></i>
-                                  <i class="fa fa-spotify fa-stack-1x fa-inverse"></i></span>
-                                <a href='#'><i class='fa fa-lastfm-square'/></a>
-                                <span class="fa-stack fa-lg">
+                                  <i class="fa fa-spotify fa-stack-1x fa-inverse"></i></span></a>
+                                <a href='#'><i class='fa fa-lastfm-square fa-2x'/></a>
+                                <a href='#'><span class="fa-stack fa-lg">
                                   <i class="fa fa-square fa-stack-2x"></i>
-                                  <i class="fa fa-video-camera fa-stack-1x fa-inverse"></i></span>
-																<a href='#'><i class='fa fa-linkedin-square'/></a>
-																<a href='#'><i class='fa fa-steam-square'/></a>
-																<a href='#'><i class='fa fa-github-square'/></a>
-                                <span class="fa-stack fa-lg">
+                                  <i class="fa fa-video-camera fa-stack-1x fa-inverse"></i></span></a>
+																<a href='#'><i class='fa fa-linkedin-square fa-2x'/></a>
+																<a href='#'><i class='fa fa-steam-square fa-2x'/></a>
+																<a href='#'><i class='fa fa-github-square fa-2x'/></a>
+                                <a href='#'><span class="fa-stack fa-lg">
                                   <i class="fa fa-square fa-stack-2x"></i>
-                                  <i class="fa fa-stack-exchange fa-stack-1x fa-inverse"></i></span>
+                                  <i class="fa fa-stack-exchange fa-stack-1x fa-inverse"></i></span></a>
 																			</div>
 
 										<p>&#169; Copyright 2015 <a expr:href='data:blog.homepageUrl'>
