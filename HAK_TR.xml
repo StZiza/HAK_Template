@@ -1325,8 +1325,7 @@ i{position:absolute;right:0;top:0;color:#fff;width:42px;height:42px;font-size:14
 .post h1 {
 padding: 0 10px;
 }
-.post img{max-width:100%;width: 100%;
-height: auto;
+.post img{max-width:100%;
 margin-left: -13px;}
 .entry-container {
 background: #FFF;
@@ -1351,8 +1350,7 @@ margin-left: 0;
 .post h1 {
 padding: 0 10px;
 }
-.post img{max-width:100%;width: 100%;
-height: auto;
+.post img{max-width:100%;
 margin-left: -13px;}
 .entry-container {
 background: #FFF;
