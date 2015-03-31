@@ -1332,7 +1332,7 @@ margin-left: -13px;}
 background: #FFF;
 position: relative;
 margin-bottom: -10px;
-color: #bbb;
+color: #444;
 font-size: 14px;
 padding: 30px 40px 30px 40px;
 line-height: 26px;
