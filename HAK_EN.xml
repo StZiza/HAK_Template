@@ -2412,17 +2412,21 @@ $(document).ready(function(){
   </div>
 </b:includable>
   </b:widget>
-  <b:widget id='HTML1' locked='false' title='Facebook' type='HTML'>
+  <b:widget id='Followers1' locked='false' title='Subscribers' type='Followers'>
     <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
+  <b:if cond='data:title != &quot;&quot; and data:codeSnippet != &quot;&quot;'>
     <h2 class='title'><data:title/></h2>
   </b:if>
   <div class='widget-content'>
-    <data:content/>
+    <div expr:id='data:widget.instanceId + &quot;-wrapper&quot;'>
+      <b:if cond='data:codeSnippet != &quot;&quot;'>
+        <div style='margin-right:2px;'>
+          <data:codeSnippet/>
+        </div>
+      </b:if>
+    </div>
+    <b:include name='quickedit'/>
   </div>
-
-  <b:include name='quickedit'/>
 </b:includable>
   </b:widget>
   <b:widget id='Label1' locked='false' title='Labels' type='Label'>
@@ -2459,6 +2463,19 @@ $(document).ready(function(){
     </b:if>
     <b:include name='quickedit'/>
   </div>
+</b:includable>
+  </b:widget>
+  <b:widget id='HTML2' locked='false' title='Protect Your NightSky!' type='HTML'>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
 </b:includable>
   </b:widget>
   <b:widget id='Image1' locked='false' title='Advertising' type='Image'>
