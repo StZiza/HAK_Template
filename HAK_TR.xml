@@ -2077,9 +2077,9 @@ $(document).ready(function(){
  <li><a class='tips' data-title='Twitter' expr:href='&quot;http://twitter.com/share?url=&quot; + data:post.url + &quot;&amp;title=&quot; + data:post.title' rel='nofollow' target='_blank'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/twitter.jpg'/></a></li>
  <li><a class='tips' data-title='Google+' expr:href='&quot;https://plus.google.com/u/0/share?url=&quot; + data:post.url' rel='nofollow' target='_blank'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/gplus.jpg'/></a></li>
  <li><a class='tips' data-title='Reddit' expr:href='&quot;http://reddit.com/submit?&amp;url=&quot; + data:post.url + &quot;&amp;title=&quot; + data:post.title' rel='nofollow' target='_blank'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/reddit.jpg'/></a></li>
- <li><a class='tips' data-title='Linkedin' href='#'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/linkedin.jpg'/></a></li>
+ <li><a class='tips' data-title='Linkedin' expr:href='&quot;https://www.linkedin.com/shareArticle?mini=true&amp;url=&quot; + data:post.url + &quot;&amp;title=&quot; + data:post.title'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/linkedin.jpg'/></a></li>
  <li><a class='tips' data-title='Delicious' expr:href='&quot;http://del.icio.us/post?url=&quot; + data:post.url + &quot;&amp;title=&quot; + data:post.title' rel='nofollow' target='_blank'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/delicious.jpg'/></a></li>
- <li><a class='tips' data-title='E-posta' href='#'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/email.jpg'/></a></li>
+ <li><a class='tips' data-title='E-mail' expr:href='&quot;mailto:?subject=&quot; + data:post.title + &quot;%20by%20&quot; + data:post.author + &quot;&amp;body=&quot; + data:post.title + &quot;%20&quot; + data:post.url'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/email.jpg'/></a></li>
 </ul>
 </div>
 <div class='clear'/>
