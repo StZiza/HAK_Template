@@ -2543,7 +2543,7 @@ $(document).ready(function(){
                                   <i class="fa fa-stack-exchange fa-stack-1x fa-inverse"></i></span></a>
 																			</div>
 
-										<p>&#169; Copyright 2015 <a expr:href='/p/Copyright.html'>
+										<p>&#169; Copyright 2015 <a href='/p/Copyright.html'>
             <data:blog.title/>
           </a> / Created by <a href='https://github.com/StZiza/HAK_Template'>H. Aziz KAYIHAN</a></p>
 
