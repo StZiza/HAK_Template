@@ -1500,17 +1500,18 @@ $(document).ready(function(){
 
 <div class='nav-collapse collapse'>
  <ul class='nav' id='menu-primary'>
- <li><a class='act' href='data:blog.homepageUrl' style='color:#47C2DC;'>Home</a></li>
+ <li><a class='act' expr:href='data:blog.homepageUrl' style='color:#47C2DC;'>Home</a></li>
  <li><a href='/p/about.html'>About</a></li>
  <li><a href='/p/the-hub.html'>the HUB</a></li>
  <li><a href='/p/works.html'>Works</a></li>
  <li><a href='/p/cv.html'>CV</a></li>
  <li class='dropdown'><a class='dropdown-toggle' data-toggle='dropdown' href='/index.html'>Blog<i class='icon-angle-down'/></a>
 <ul class='dropdown-menu'>
- <li><a href='/search/label/PSE'>Poems/Stories/Essays</a></li>
- <li><a href='/search/label/Year%20in%20Review'>Year in Review</a></li>
- <li><a href='search/label/Once%20Upon%20%20A%20Time%20In%20My%20Life'>Once Upon a Time in My Life</a></li>
- <li><a href='/search/label/The%20Very%20First'>The Very First</a></li>
+  <li><a href='/index.html'>Blog Homepage</a></li>
+  <li><a href='/search/label/PSE'>Poems/Stories/Essays</a></li>
+  <li><a href='/search/label/Year%20in%20Review'>Year in Review</a></li>
+  <li><a href='search/label/Once%20Upon%20%20A%20Time%20In%20My%20Life'>Once Upon a Time in My Life</a></li>
+  <li><a href='/search/label/The%20Very%20First'>The Very First</a></li>
 </ul>
 </li>
 <li><a href='/p/links.html'>Links</a></li>
