@@ -1397,7 +1397,7 @@ function rm(a) {
     if (ifrtb != -1) ifrtag = '<div class="entry-video"><iframe width="840" height="472" src="' + ifrsrc + '?vq=medium&rel=0" frameborder="0" allowfullscreen></iframe></div>';
     else if (img.length >= 1) imgtag = '<div class="entry-image"><a href="' + y + '"><img class="thumb" src="' + img[0].src + '" /></a></div>';
     else imgtag = '<div class="entry-image no-image"><a href="' + y + '"><img class="thumb" src="https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/no_image_yet.jpg" /></a></div>';
-    p.innerHTML = '<div class="entry-container"><div class="entry-content"><h1 class="entry-title"> <div class="meta"><p><small> <i class="fa fa-clock-o"></i> ' + t + ' &nbsp; &nbsp;<i class="fa fa-user"></i> ' + z + ' &nbsp; &nbsp; <i class="fa fa-comments"></i> ' + u + ' Comments</small></p></div> <a href="' + y + '">' + x + " </a> </h1> " + ifrtag + imgtag + "<p>"   + stripTags(p.innerHTML, 60) + "...</p></div></div>"
+    p.innerHTML = '<div class="entry-container"><div class="entry-content"><h1 class="entry-title"> <div class="meta"><p><small> <i class="fa fa-clock-o"></i> ' + t + ' &nbsp; &nbsp;<i class="fa fa-user"></i> ' + z + ' &nbsp; &nbsp; <i class="fa fa-comments"></i> ' + u + ' Yorum</small></p></div> <a href="' + y + '">' + x + " </a> </h1> " + ifrtag + imgtag + "<p>"   + stripTags(p.innerHTML, 60) + "...</p></div></div>"
 
 
 }
@@ -2079,7 +2079,7 @@ $(document).ready(function(){
  <li><a class='tips' data-title='Reddit' expr:href='&quot;http://reddit.com/submit?&amp;url=&quot; + data:post.url + &quot;&amp;title=&quot; + data:post.title' rel='nofollow' target='_blank'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/reddit.jpg'/></a></li>
  <li><a class='tips' data-title='Linkedin' expr:href='&quot;https://www.linkedin.com/shareArticle?mini=true&amp;url=&quot; + data:post.url + &quot;&amp;title=&quot; + data:post.title'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/linkedin.jpg'/></a></li>
  <li><a class='tips' data-title='Delicious' expr:href='&quot;http://del.icio.us/post?url=&quot; + data:post.url + &quot;&amp;title=&quot; + data:post.title' rel='nofollow' target='_blank'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/delicious.jpg'/></a></li>
- <li><a class='tips' data-title='E-mail' expr:href='&quot;mailto:?subject=&quot; + data:post.title + &quot;%20by%20&quot; + data:post.author + &quot;&amp;body=&quot; + data:post.title + &quot;%20&quot; + data:post.url'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/email.jpg'/></a></li>
+ <li><a class='tips' data-title='E-posta' expr:href='&quot;mailto:?subject=&quot; + data:post.title + &quot;%20by%20&quot; + data:post.author + &quot;&amp;body=&quot; + data:post.title + &quot;%20&quot; + data:post.url'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/email.jpg'/></a></li>
 </ul>
 </div>
 <div class='clear'/>
