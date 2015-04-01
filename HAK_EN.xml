@@ -1397,7 +1397,7 @@ function rm(a) {
     if (ifrtb != -1) ifrtag = '<div class="entry-video"><iframe width="840" height="472" src="' + ifrsrc + '?vq=medium&rel=0" frameborder="0" allowfullscreen></iframe></div>';
     else if (img.length >= 1) imgtag = '<div class="entry-image"><a href="' + y + '"><img class="thumb" src="' + img[0].src + '" /></a></div>';
     else imgtag = '<div class="entry-image no-image"><a href="' + y + '"><img class="thumb" src="https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/no_image_yet.jpg" /></a></div>';
-    p.innerHTML = '<div class="entry-container"><div class="entry-content"><h1 class="entry-title"> <div class="post-avatar"></div> <div class="meta"><p><small> <i class="fa fa-clock-o"></i> ' + t + ' &nbsp; &nbsp;<i class="fa fa-user"></i> ' + z + ' &nbsp; &nbsp; <i class="fa fa-comments"></i> ' + u + ' Comments</small></p></div> <a href="' + y + '">' + x + " </a> </h1> " + ifrtag + imgtag + "<p>"   + stripTags(p.innerHTML, 60) + "...</p></div></div>"
+    p.innerHTML = '<div class="entry-container"><div class="entry-content"><h1 class="entry-title"> <div class="meta"><p><small> <i class="fa fa-clock-o"></i> ' + t + ' &nbsp; &nbsp;<i class="fa fa-user"></i> ' + z + ' &nbsp; &nbsp; <i class="fa fa-comments"></i> ' + u + ' Comments</small></p></div> <a href="' + y + '">' + x + " </a> </h1> " + ifrtag + imgtag + "<p>"   + stripTags(p.innerHTML, 60) + "...</p></div></div>"
 
 
 }
@@ -2050,7 +2050,7 @@ $(document).ready(function(){
 
 <b:if cond='data:blog.pageType == &quot;index&quot;'>
 <span expr:id='&quot;p&quot; + data:post.id'><data:post.body/></span>
-<script type='text/javascript'>var x=&quot;<data:post.title/>&quot;,y=&quot;<data:post.url/>&quot;,z=&quot;<data:post.author/>&quot;,t=&quot;<data:post.timestamp/>&quot;,u=&quot;<data:post.numComments/>&quot;;rm(&quot;p<data:post.id/>&quot;)</script><b:else/><div class='entry-container'><div class='entry-content1'><h1><b:if cond='data:post.link'><a expr:href='data:post.link' expr:title='data:post.title'><data:post.title/></a><b:else/><data:post.title/> <div class='post-avatar'/>
+<script type='text/javascript'>var x=&quot;<data:post.title/>&quot;,y=&quot;<data:post.url/>&quot;,z=&quot;<data:post.author/>&quot;,t=&quot;<data:post.timestamp/>&quot;,u=&quot;<data:post.numComments/>&quot;;rm(&quot;p<data:post.id/>&quot;)</script><b:else/><div class='entry-container'><div class='entry-content1'><h1><b:if cond='data:post.link'><a expr:href='data:post.link' expr:title='data:post.title'><data:post.title/></a><b:else/><data:post.title/> 
   <div class='meta1'><p><small>  <span><i class='fa fa-clock-o'/> <data:post.timestamp/></span>    <span> <i class='fa fa-user'/> <data:post.author/> </span>      <i class='fa fa-comments'/> <data:post.numComments/> Comments</small></p></div>
   </b:if></h1><data:post.body/></div></div></b:if>
 
