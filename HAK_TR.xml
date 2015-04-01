@@ -969,7 +969,7 @@ text-transform: capitalize;}
 .comments .comment-block,.comments .comments-content .comment-replies,.comments .comment-replybox-single{margin-left:60px}
 .comments .comment-block,.comments .comment-thread.inline-thread .comment{border:1px solid #ddd;background:#f9f9f9;padding:10px}
 .comments .comments-content .comment{margin:15px 0 0;padding:0;width:100%;line-height:1em}
-.comments .comments-content .icon.blog-author{position:absolute;top:-12px;right:-12px;margin:0;background-image: url(https://lh4.googleusercontent.com/-yZr9CWeDr1M/UhbCd9bmLkI/AAAAAAAACjI/sllgyp7xoMc/s36/author.png);width:36px;height:36px}
+.comments .comments-content .icon.blog-author{position:absolute;top:-12px;right:-12px;margin:0;background-image: url(https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/yazar.png);width:36px;height:36px}
 .comments .comments-content .inline-thread{padding:0 0 0 20px}
 .comments .comments-content .comment-replies{margin-top:0}
 .comments .comment-content{padding:5px 0;line-height:1.4em}
@@ -1396,7 +1396,7 @@ function rm(a) {
     }
     if (ifrtb != -1) ifrtag = '<div class="entry-video"><iframe width="840" height="472" src="' + ifrsrc + '?vq=medium&rel=0" frameborder="0" allowfullscreen></iframe></div>';
     else if (img.length >= 1) imgtag = '<div class="entry-image"><a href="' + y + '"><img class="thumb" src="' + img[0].src + '" /></a></div>';
-    else imgtag = '<div class="entry-image no-image"><a href="' + y + '"><img class="thumb" src="https://lh4.googleusercontent.com/-G9M2DTCTUwM/Tlh-2pwtc5I/AAAAAAAABKM/kCJg-Kf3W2M/no_image_yet.jpg" /></a></div>';
+    else imgtag = '<div class="entry-image no-image"><a href="' + y + '"><img class="thumb" src="https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/no_image_yet.jpg" /></a></div>';
     p.innerHTML = '<div class="entry-container"><div class="entry-content"><h1 class="entry-title"> <div class="post-avatar"></div> <div class="meta"><p><small> <i class="fa fa-clock-o"></i> ' + t + ' &nbsp; &nbsp;<i class="fa fa-user"></i> ' + z + ' &nbsp; &nbsp; <i class="fa fa-comments"></i> ' + u + ' Comments</small></p></div> <a href="' + y + '">' + x + " </a> </h1> " + ifrtag + imgtag + "<p>"   + stripTags(p.innerHTML, 60) + "...</p></div></div>"
 
 
@@ -1424,7 +1424,7 @@ $(document).ready(function(){
 
 <div class='navbar navbar-inverse'>
  <div class='navbar-inner'>
- <div class='btn-navbar' data-target='.nav-collapse' data-toggle='collapse' type='button'><img src='http://1.bp.blogspot.com/-QKEyxEreTuo/U6vtwCB-GuI/AAAAAAAAAqQ/WbLV8nQqLJo/s1600/bmenu+copy.png'/></div>
+ <div class='btn-navbar' data-target='.nav-collapse' data-toggle='collapse' type='button'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/bmenu%20copy.png'/></div>
 
  <b:section class='header' id='header' maxwidgets='1' showaddelement='no'>
    <b:widget id='Header1' locked='true' title='test-xpose (Header)' type='Header'>
@@ -2073,13 +2073,13 @@ $(document).ready(function(){
 <div class='pull-right share-story-container'>
 <small class='muted'>Yazıyı paylaş</small>
 <ul class='share-story'>
- <li><a class='tips' data-title='Facebook' expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:post.url + &quot;&amp;title=&quot;+ data:post.title' rel='nofollow' target='_blank'><img src='https://lh4.googleusercontent.com/-ZLBXhszmKcM/UhRopVveCXI/AAAAAAAACgk/A4UMB2mIVpc/s33/fb.jpg'/></a></li>
- <li><a class='tips' data-title='Twitter' expr:href='&quot;http://twitter.com/share?url=&quot; + data:post.url + &quot;&amp;title=&quot; + data:post.title' rel='nofollow' target='_blank'><img src='https://lh6.googleusercontent.com/-LWZCI166jr4/UhRorVB4MdI/AAAAAAAAChI/V3ir2xRth7U/s33/twitter.jpg'/></a></li>
- <li><a class='tips' data-title='Google+' expr:href='&quot;https://plus.google.com/u/0/share?url=&quot; + data:post.url' rel='nofollow' target='_blank'><img src='https://lh6.googleusercontent.com/-GnP5yhTBMQU/UhRop_RqX7I/AAAAAAAACg8/z1oV5uQeGdk/s33/gplus.jpg'/></a></li>
- <li><a class='tips' data-title='Reddit' expr:href='&quot;http://reddit.com/submit?&amp;url=&quot; + data:post.url + &quot;&amp;title=&quot; + data:post.title' rel='nofollow' target='_blank'><img src='https://lh5.googleusercontent.com/-VAUJIJqqA5U/UhRoqt8S-zI/AAAAAAAAChA/9zVI6GBqBOk/s33/reddit.jpg'/></a></li>
- <li><a class='tips' data-title='Linkedin' href='#'><img src='https://lh6.googleusercontent.com/-ffL-1GnpCbQ/UhRoqObh1DI/AAAAAAAACg4/DPcWbZiXIPM/s33/linkedin.jpg'/></a></li>
- <li><a class='tips' data-title='Delicious' expr:href='&quot;http://del.icio.us/post?url=&quot; + data:post.url + &quot;&amp;title=&quot; + data:post.title' rel='nofollow' target='_blank'><img src='https://lh3.googleusercontent.com/-L7THCNSuH4o/UhRopg9EiGI/AAAAAAAACgc/h_0h6SFGaec/s33/delicious.jpg'/></a></li>
- <li><a class='tips' data-title='E-posta' href='#'><img src='https://lh6.googleusercontent.com/-5EwiOpeVuqQ/UhRopQEQW-I/AAAAAAAACgo/8ci9AEUl3cg/s33/email.jpg'/></a></li>
+ <li><a class='tips' data-title='Facebook' expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:post.url + &quot;&amp;title=&quot;+ data:post.title' rel='nofollow' target='_blank'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/fb.jpg'/></a></li>
+ <li><a class='tips' data-title='Twitter' expr:href='&quot;http://twitter.com/share?url=&quot; + data:post.url + &quot;&amp;title=&quot; + data:post.title' rel='nofollow' target='_blank'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/twitter.jpg'/></a></li>
+ <li><a class='tips' data-title='Google+' expr:href='&quot;https://plus.google.com/u/0/share?url=&quot; + data:post.url' rel='nofollow' target='_blank'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/gplus.jpg'/></a></li>
+ <li><a class='tips' data-title='Reddit' expr:href='&quot;http://reddit.com/submit?&amp;url=&quot; + data:post.url + &quot;&amp;title=&quot; + data:post.title' rel='nofollow' target='_blank'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/reddit.jpg'/></a></li>
+ <li><a class='tips' data-title='Linkedin' href='#'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/linkedin.jpg'/></a></li>
+ <li><a class='tips' data-title='Delicious' expr:href='&quot;http://del.icio.us/post?url=&quot; + data:post.url + &quot;&amp;title=&quot; + data:post.title' rel='nofollow' target='_blank'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/delicious.jpg'/></a></li>
+ <li><a class='tips' data-title='E-posta' href='#'><img src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/email.jpg'/></a></li>
 </ul>
 </div>
 <div class='clear'/>
@@ -2090,7 +2090,7 @@ $(document).ready(function(){
   <b:if cond='data:post.editUrl'>
     <span expr:class='&quot;item-control &quot; + data:post.adminClass'>
       <a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'>
-        <img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+        <img alt='' class='icon-action' height='18' src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/icon18_edit_allbkg.gif' width='18'/>
       </a>
     </span>
   </b:if>
@@ -2401,7 +2401,7 @@ $(document).ready(function(){
         <b:if cond='data:post.thumbnail'>
             <img expr:alt='data:post.title' expr:src='data:post.thumbnail' height='50' width='50'/>
 <b:else/>
-            <img alt='no image' height='50' src='http://lh4.ggpht.com/_u7a1IFxc4WI/TTjruHJjcfI/AAAAAAAAAk0/i11Oj6i_bHY/s50/no-image.png' width='50'/>
+            <img alt='no image' height='50' src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/no-image.PNG' width='50'/>
         </b:if>
         <a expr:href='data:post.href' expr:title='data:post.snippet' rel='bookmark'><data:post.title/></a>
             <div style='clear: both;'/>
