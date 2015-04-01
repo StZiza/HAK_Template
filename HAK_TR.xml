@@ -2366,7 +2366,7 @@ $(document).ready(function(){
   </div>
 <div class='widget widget-about'><div class='head-bg' style='background-image: url(https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/sidebar_profile_bg.jpg)'><div class='my-pic'><img alt='Ahmed Ebraheem' src='https://dl.dropboxusercontent.com/u/3870533/blogmateryal/Pratico/Images/sidebar_profile.jpg'/></div><div class='my-data'><span class='my-name'>H. Aziz KAYIHAN</span> <span class='my-job'>Astronom</span></div></div><div class='my-words'>Ben insanların ve yaşamın tadını çıkaran ve aynı zamanda fotoğrafçılık ve oyunculukla uğraşan bir astronomum. Daha fazla bilgiye <a href='#'>Hakkımda</a> sayfasından ulaşabilirsiniz.</div><div class='social-icon'><a href='http://www.facebook.com/stziza'><i class='fa fa-facebook'/></a><a href='http://twitter.com/stziza'><i class='fa fa-twitter'/></a><a href='http://www.google.com/+HAzizKay%C4%B1han'><i class='fa fa-google-plus'/></a><a href='http://instagram.com/stziza/'><i class='fa fa-instagram'/></a><a href='http://www.youtube.com/user/zizaastrozombie'><i class='fa fa-youtube'/></a><a href='http://www.lastfm.com/user/zizaastrozombie'><i class='fa fa-lastfm'/></a><a href='http://trakt.me/StZiza'><i class='fa fa-video-camera'/></a><a href='http://www.linkedin.com/in/azizkayihan'><i class='fa fa-linkedin'/></a><a href='http://blog.kayihan.net/feeds/posts/default'><i class='fa fa-rss'/></a></div></div>
 <b:section class='sidebar' id='sidebar' preferred='yes'>
-  <b:widget id='PopularPosts1' locked='false' title='Popular Posts' type='PopularPosts'>
+  <b:widget id='PopularPosts1' locked='false' title='Popüler Yazılar' type='PopularPosts'>
     <b:includable id='main'>
 <b:if cond='data:title'><h2><data:title/></h2></b:if>
   <div class='widget-content popular-posts'>
@@ -2430,7 +2430,7 @@ $(document).ready(function(){
     </div>
   </b:includable>
     </b:widget>
-  <b:widget id='Label1' locked='false' title='Labels' type='Label'>
+  <b:widget id='Label1' locked='false' title='Blog İçerikleri' type='Label'>
     <b:includable id='main'>
   <b:if cond='data:title'>
     <h2><data:title/></h2>
@@ -2479,7 +2479,7 @@ $(document).ready(function(){
 <b:include name='quickedit'/>
 </b:includable>
 </b:widget>
-  <b:widget id='HTML2' locked='false' title='Protect Your NightSky!' type='HTML'>
+  <b:widget id='HTML2' locked='false' title='Gökyüzünü Koru!' type='HTML'>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
@@ -2491,23 +2491,6 @@ $(document).ready(function(){
 
   <b:include name='quickedit'/>
 </b:includable>
-  </b:widget>
-  <b:widget id='Image1' locked='false' title='Advertising' type='Image'>
-    <b:includable id='main'>
-    <b:if cond='data:title != &quot;&quot;'>
-      <h2><data:title/></h2>
-    </b:if>
-    <div class='widget-content'>
-      <b:if cond='data:link != &quot;&quot;'>
-        <a class='bl_popover' data-placement='top' data-title='Medium rectangle' data-trigger='hover' expr:data-content='data:caption' expr:href='data:link' style='display:block;'>
-          <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
-        </a>
-      <b:else/>
-        <img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &quot;_img&quot;' expr:src='data:sourceUrl' expr:width='data:width'/>
-      </b:if>
-    </div>
-    <b:include name='quickedit'/>
-  </b:includable>
   </b:widget>
 </b:section>
 </div>
